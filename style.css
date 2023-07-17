@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(/images/pang-yuhao-_kd5cxwZOK4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.icon h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.icon h2:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 55px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 660px;
+    float: left;
+    height: 70px;
+    background-color: #a9703e;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    border-radius: 10%;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content {
+    width: 1000px;
+    height: auto;
+    color: #fff;
+    margin: auto;
+    position: relative;
+}
+
+.content h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 150px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+    padding-top: 180px;
+}
+
+.content span {
+    color: rgb(255, 145, 0);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.content span:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.content p {
+    color: rgb(253, 253, 253);
+    margin-top: 1%;
+    padding-left: 155px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: larger;
+}
+
+
+/* .about {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.about h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-left: 7px;
+    margin-top: 4%;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.about h2:hover {
+    color: #fff;
+    text-decoration: double;
+    cursor: pointer;
+}
+
+.about p b {
+    color: rgb(5, 226, 182);
+    font-size: larger
+}
+
+.about h2 span {
+    color: rgb(232, 140, 19);
+}
+
+.about p {
+    color: rgb(176, 183, 187);
+    margin-top: 1%;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: larger;
+}
+
+.about span:hover {
+    color: #fff;
+} */
